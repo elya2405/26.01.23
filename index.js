@@ -38,3 +38,24 @@ function printSum(a, b) {
 printSum(5, 10);
 printSum(-5, 0);
 printSum(100, 125);
+
+function printDiff(x, y) {
+  let diff = x - y;
+  console.log(x + " - " + y + " = " + diff);
+}
+
+printDiff(5, 10);
+
+function printMultiply(a, b) {
+  let multiply = a * b;
+  console.log(a + " * " + b + " = " + multiply);
+}
+
+printMultiply(6, 3);
+
+function printDivide(x, y) {
+  let divide = x / y;
+  console.log(x + " / " + y + " = " + divide);
+}
+
+printDivide(20, 5);
